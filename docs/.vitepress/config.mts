@@ -35,7 +35,7 @@ export default defineConfig({
     outlineTitle: "页面导航",
 
     footer:{
-        copyright: "Copyright@ 2024 王文斌-嵌入式协会2024015"
+        copyright: "Copyright@ 王文斌-嵌入式协会2024015"
     }
   }
 })
