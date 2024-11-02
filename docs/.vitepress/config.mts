@@ -32,6 +32,8 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/Dihuwwy' }
     ],
 
+    outlineTitle: "页面导航",
+
     footer:{
         copyright: "Copyright@ 2024 王文斌"
     }
