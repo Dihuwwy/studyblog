@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/docs/",
   title: "嵌入式学习博客",
   description: "A VitePress Site",
   themeConfig: {
@@ -20,6 +21,11 @@ export default defineConfig({
         ]
       }
     ],
+
+    docFooter: {
+      prev: "上一页",
+      next: "下一页"
+    },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Dihuwwy' }
