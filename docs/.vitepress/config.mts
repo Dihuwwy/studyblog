@@ -5,7 +5,7 @@ export default defineConfig({
   base: "/studyblog/",
   lang: 'zh-CN',
   title: "嵌入式学习博客",
-  description: "A VitePress Site",
+  description: "VitePress站点",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -28,6 +28,9 @@ export default defineConfig({
       next: "下一页"
     },
 
+    lastUpdatedText: '上次更新',
+    returnToTopLabel: '返回顶部',
+
     socialLinks: [
       { icon: 'github', link: 'https://github.com/Dihuwwy' }
     ],
@@ -35,7 +38,7 @@ export default defineConfig({
     outlineTitle: "页面导航",
 
     footer:{
-        copyright: "Copyright@ 王文斌 嵌入式协会2024015"
+        copyright: "Copyright@ 王文斌-嵌入式协会2024015"
     }
   }
 })
