@@ -18,7 +18,8 @@ export default defineConfig({
         text: '日志',
         items: [
           { text: '关于', link: '/关于' },
-          { text: '2024.11.02', link: '/2024.11.2' }
+          { text: '2024.11.02', link: '/2024.11.2' },
+          { text: '2024.11.03', link: '/2024.11.3' }
         ]
       }
     ],

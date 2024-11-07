@@ -8,6 +8,9 @@ hero:
   tagline: 记录进步
   actions:
     - theme: alt
+      text: 2024.11.03
+      link: /2024.11.3
+    - theme: alt
       text: 2024.11.02
       link: /2024.11.2
     - theme: alt
